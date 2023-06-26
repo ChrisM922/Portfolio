@@ -23,6 +23,9 @@ import {
   jobit,
   tripguide,
   threejs,
+  wordpress,
+  funktion,
+  mmbbs,
 } from "../assets";
 
 export const navLinks = [
@@ -42,15 +45,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Junior Web Developer",
     icon: web,
   },
   {
-    title: "Application Developer",
+    title: "React.js",
+    icon: backend,
+  },
+  {
+    title: "Junior Application Developer",
     icon: mobile,
   },
   {
-    title: "WordPress",
+    title: "WordPress and CMS",
     icon: creator,
   },
 ];
@@ -77,20 +84,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
     name: "Node JS",
     icon: nodejs,
-  },
-  {
-    name: "MongoDB",
-    icon: mongodb,
   },
   {
     name: "Three JS",
@@ -100,66 +99,34 @@ const technologies = [
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "School - MMBBS Hannover - Application Develpment",
+    company_name: "MMBBS",
+    icon: mmbbs,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Feb 2022 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Learning Java, python and C#.",
+      "Learning Oracle and Cloud Solutions.",
+      "Understanding key principles in Networking.",
+      "Gaining an understanding of Standup meetings and Scrums.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "funktion5 GmbH",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Present",
+    title: "Junior Web Developer",
+    company_name: "Funktion5 GmbH",
+    icon: funktion,
+    iconBg: "#fff",
+    date: "Feb 2022 - Present",
     points: [
-      "Developing and maintaining web sites using WordPress and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
+      "Developing and maintaining web applications using CMS and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
+      "Development of Custom Plugins and functionaleties according to Customers visions."
     ],
   },
 ];
