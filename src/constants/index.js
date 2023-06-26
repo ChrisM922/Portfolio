@@ -49,6 +49,7 @@ const services = [
     icon: web,
   },
   {
+<<<<<<< HEAD
     title: "React.js",
     icon: backend,
   },
@@ -58,7 +59,18 @@ const services = [
   },
   {
     title: "WordPress and CMS",
+=======
+    title: "React.Js Developer",
+    icon: mobile,
+  },
+  {
+    title: "Application Developer",
+>>>>>>> 3b79c73ca514a25c6385a3b40be722d0456489de
     icon: creator,
+  },
+  {
+    title: "CMS - WordPress",
+    icon: backend,
   },
 ];
 
