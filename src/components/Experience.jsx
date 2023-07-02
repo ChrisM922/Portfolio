@@ -18,6 +18,7 @@ const ExperienceCard = ({ experience }) => {
       contentStyle={{
         background: "#1d1836",
         color: "#fff",
+        border: "100px",
       }}
       contentArrowStyle={{ borderRight: "7px solid  #232631" }}
       date={experience.date}
@@ -60,18 +61,15 @@ const Experience = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText}`}>
-          What I have done so far
-        </p>
-        <h2 className={`${styles.sectionHeadText}`}>
-          Work Experience.
-        </h2>
+        <p className={`${styles.sectionSubText}`}>What I have done so far</p>
+        <h2 className={`${styles.sectionHeadText}`}>Work Experience.</h2>
       </motion.div>
 
-      <div className='mt-20 flex flex-col'>
+      <div className='mt-20 flex flex-col rounded-xl'>
         <VerticalTimeline>
           {experiences.map((experience, index) => (
             <ExperienceCard
+              className='rounded-xl'
               key={`experience-${index}`}
               experience={experience}
             />
