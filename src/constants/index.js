@@ -49,7 +49,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React.js",
+    title: "Frameworks - React.js, next.js and Vite",
     icon: backend,
   },
   {
@@ -220,7 +220,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/ChrisM922",
   },
 ];
 
