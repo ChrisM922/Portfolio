@@ -53,7 +53,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Junior Application Developer",
+    title: "SEO Optimisation",
     icon: mobile,
   },
   {
