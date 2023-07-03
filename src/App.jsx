@@ -9,6 +9,7 @@ import {
   Tech,
   Works,
   StarsCanvas,
+  Modal,
 } from "./components";
 
 const App = () => {
