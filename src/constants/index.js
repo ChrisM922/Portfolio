@@ -8,24 +8,18 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
-  figma,
-  docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
   jobit,
   tripguide,
   threejs,
   wordpress,
   funktion,
   mmbbs,
+  nextJS,
+  promptshare,
 } from "../assets";
 
 export const navLinks = [
@@ -66,6 +60,9 @@ const technologies = [
   {
     name: "HTML 5",
     icon: html,
+  }, {
+    name: "WordPress",
+    icon: wordpress,
   },
   {
     name: "CSS 3",
@@ -84,6 +81,10 @@ const technologies = [
     icon: reactjs,
   },
   {
+    name: "next.js",
+    icon: nextJS,
+  },
+  {
     name: "Tailwind CSS",
     icon: tailwind,
   },
@@ -96,6 +97,10 @@ const technologies = [
     icon: threejs,
   },
   {
+    name: "mongodb",
+    icon: mongodb,
+  },
+  {
     name: "git",
     icon: git,
   },
@@ -103,7 +108,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "School - MMBBS Hannover - Application Develpment",
+    title: "School - MMBBS Hannover - Application Development",
     company_name: "MMBBS",
     icon: mmbbs,
     iconBg: "#E6DEDD",
@@ -160,12 +165,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "PromptShare - AI Prompts",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Full-stack CRUD project using Next.js and deployed on Vercel. Use of Google OAuth, MongoDB, and API routes. Allows users to share their collection of AI prompts for ChatGPT and other AI.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -177,11 +182,11 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/ChrisM922",
+    image: promptshare,
+    source_code_link: "https://github.com/ChrisM922/project_prompt_share",
   },
   {
-    name: "Job IT",
+    name: "Job IT (Placeholder)",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
@@ -202,7 +207,7 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Trip Guide",
+    name: "Trip Guide (Placeholder)",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
