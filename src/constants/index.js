@@ -103,7 +103,7 @@ const technologies = [
 
 const experiences = [
   {
-    title: "School - MMBBS Hannover - Application Develpment",
+    title: "School - MMBBS Hannover - Application Development",
     company_name: "MMBBS",
     icon: mmbbs,
     iconBg: "#E6DEDD",
