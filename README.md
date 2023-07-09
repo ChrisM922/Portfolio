@@ -66,11 +66,9 @@ npm run dev
 ## Usage
 To customize the portfolio with your own information and projects, make the following changes:
 
-1. Open the `src/data` directory and update the JSON files with your details, skills, projects, and achievements.
+1. Open the `src/constants/index.js` directory and update the JSON files with your details, skills, projects, and achievements.
 
-2. Replace the existing project screenshots in the `src/assets/images` directory with your own project screenshots.
-
-3. Customize the design and layout by modifying the styles in the `src/styles` directory.
+2. Customize the design and layout by modifying the styles in the `src/styles` directory.
 
 <!-- Technologies -->
 ## Technologies
