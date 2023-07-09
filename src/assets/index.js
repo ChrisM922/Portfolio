@@ -23,6 +23,7 @@ import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import wordpress from "./company/wordpress-logo.svg";
+import nextJS from "./tech/nextjs.svg"
 
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -33,6 +34,7 @@ import funktion from "./company/Funktion5Logo.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import promptshare from "./promptshare.png";
 
 export {
   mmbbs,
@@ -66,4 +68,6 @@ export {
   carrent,
   jobit,
   tripguide,
+  nextJS,
+  promptshare,
 };
