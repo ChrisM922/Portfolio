@@ -32,7 +32,7 @@ Welcome to my portfolio repository! This website serves as a platform to showcas
 
 <!-- Demo -->
 ## Demo
-You can check out the live demo of my portfolio website [here](https://your-portfolio-url.com).
+You can check out the live demo of my portfolio website [here](https://christopher-mace.com).
 
 <!-- Installation -->
 ## Installation
