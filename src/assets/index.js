@@ -33,6 +33,7 @@ import funktion from "./company/Funktion5Logo.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+import weatherApp from "./weatherApp.png";
 import tripguide from "./tripguide.png";
 import promptshare from "./promptshare.png";
 
@@ -67,6 +68,7 @@ export {
   tesla,
   carrent,
   jobit,
+  weatherApp,
   tripguide,
   nextJS,
   promptshare,
