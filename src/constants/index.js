@@ -12,7 +12,7 @@ import {
   nodejs,
   mongodb,
   git,
-  jobit,
+  weatherApp,
   tripguide,
   threejs,
   wordpress,
@@ -184,11 +184,12 @@ const projects = [
     ],
     image: promptshare,
     source_code_link: "https://github.com/ChrisM922/project_prompt_share",
+    website_url: "https://project-prompt-share.vercel.app/",
   },
   {
-    name: "Job IT (Placeholder)",
+    name: "Weather Web App",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Web application that displays the current weather in the location entered by the user. Built using HTML and CSS for the front-end, and utelising the OpenWeatherMap API for the weather data. Deployed on Vercel.",
     tags: [
       {
         name: "react",
@@ -199,12 +200,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "css",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: weatherApp,
+    source_code_link: "https://github.com/ChrisM922",
+    website_url: "https://weatherforecast-three.vercel.app/",
   },
   {
     name: "Trip Guide (Placeholder)",
